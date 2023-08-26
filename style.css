@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    height: 5rem;
+    width: 100%;
+    padding-top: 0.5rem;
+    background-color: rgb(31, 35, 37);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(243, 239, 5);
+}
+
+.formContainer {
+    width: 90%;
+    margin: 5%;
+    height: 60%;
+}
+
+#moodForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.text1 {
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+
+.selectBox {
+    border-radius: 5rem;
+    height: 4rem;
+    width: 80%;
+    max-width: 62rem;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+}
+
+#nota {
+    margin: 1rem auto;
+    border-radius: 5rem;
+    height: 4rem;
+    width: 80%;
+    max-width: 62rem;
+    text-align: center;
+}
+
+#enviarNota {
+    margin: 1rem auto;
+    border-radius: 5rem;
+    height: 4rem;
+    width: 60%;
+    max-width: 40rem;
+    background-color: rgb(31, 35, 37);
+    color: rgb(243, 239, 5);
+}
+
+
+

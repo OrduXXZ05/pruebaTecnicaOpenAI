@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 800px)">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <title>Mood Tracker</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">Mood Tracker</h1>
+    </header>
+    <section class="section">
+        <article class="formContainer">
+            <span id="spanError"></span>
+            <form id="moodForm" action="">
+                <label class="text1" for="opciones">How are you felling today?</label>
+                <select class="selectBox" name="opciones" id="opciones">
+                    <option class="opciones" value="muyBien">Muy bien</option>
+                    <option class="opciones" value="bien">Bien</option>
+                    <option class="opciones" value="neutral">Neutral</option>
+                    <option class="opciones" value="mal">Mal</option>
+                    <option class="opciones" value="muyMal">Muy mal</option>
+                </select>
+                <label class="text1" for="nota">Escribe lo que sientes o piensas</label>
+                <input type="text" id="nota" name="nota">
+                <button type="button" id="enviarNota">Send</button>
+            </form>
+        </article>
+        <article class="responseContainer">
+            <img id="moodImage" src="" alt="">
+            <p id="responseIA"></p>
+        </article>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

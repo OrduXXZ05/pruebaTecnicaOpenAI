@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.text1 {
+    margin: 1rem auto;
+    font-size: 2.5rem;
+}
